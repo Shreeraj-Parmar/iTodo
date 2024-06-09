@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e3dff0;
+}
+.container {
+  background-color: #e3dff0;
+  height: 100vh;
+}
+
+.navba {
+  height: 5%;
+  font-size: larger;
+  color: #dc5f00;
+}
+
+.todos {
+  height: 80%;
+  border: 2px solid black;
+  border-radius: 10px;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  background-color: #ede9fe;
+}
+
+.todo {
+  display: flex;
+  gap: 10px;
+  border: 2px solid rgb(72, 63, 63);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 7px;
+}
+
+.addTodo {
+  /* border: 2px solid black; */
+  height: 10%;
+  padding: 10px;
+}
+
+.inp {
+  width: 93%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.addbtn {
+  height: 44.2px;
+}
+
+.show {
+  text-align: center;
+  justify-content: center;
+}
+
+.show input {
+  width: 30px;
+  height: 30px;
+}
